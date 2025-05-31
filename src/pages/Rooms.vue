@@ -160,7 +160,7 @@ const allRooms = ref([
 
 // Logic cho Filters (Tùy chọn)
 const filterType = ref('all'); 
-const sortBy = ref(''); 
+const sortBy = ref('price_asc'); 
 
 // Logic cho Pagination (Tùy chọn)
 const currentPage = ref(1);
